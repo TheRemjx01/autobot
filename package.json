@@ -1,0 +1,11 @@
+{
+  "name": "@theremjx01/autobot",
+  "version": "0.0.1",
+  "description": "Some cypress plugins you may need",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
