@@ -29,6 +29,8 @@ In `plugins/index.js` of your project, add these line:
 
 
 ```javascript
+const { rawSqlHandler } = require('@theremjx01/autobot');
+
 module.exports = (on, config) => {
     // ... other plugins event 
     on('task', {
