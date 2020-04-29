@@ -9,7 +9,8 @@ graphql request plugins
 
 Usage: 
 
-In `cypress.env.json`, add your database connection config:
+In `cypress.env.json`, add your database connection config.
+Here is the example, please replace with your db config 
 
 ```json
 {
@@ -18,7 +19,7 @@ In `cypress.env.json`, add your database connection config:
     "user": "john.doe",
     "database": "hello.world",
     "password": "my.p@ssword",
-    "client": "mysql2" // knex available client: [mysql2, postgres, ...]
+    "client": "mysql2"
   }
 }
 ```
