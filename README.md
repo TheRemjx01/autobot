@@ -9,6 +9,21 @@ graphql request plugins
 
 Usage: 
 
+In `cypress.env.json`, add your database connection config:
+
+```json
+{
+  "databaseOptions": {
+    "host": "localhost",
+    "user": "john.doe",
+    "database": "hello.world",
+    "password": "my.p@ssword",
+    "client": "mysql2" // knex available client: [mysql2, postgres, ...]
+  }
+}
+```
+
+
 In `plugins/index.js` of your project, add these line:
 
 
