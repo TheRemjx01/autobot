@@ -42,3 +42,17 @@ module.exports = (on, config) => {
 }
 
 ```
+
+In your test file, example: `demo.spec.js`, use this command to call use `rawSQL`:
+
+```javacript
+describe('demo test', () => {
+    it('should be able to call rawsql', () => {
+        cy.task('rawSQL', 'SELECT * FROM demo_table').then(sqlRes => {
+            // handle result    
+        }).catch(sqlErr => {
+            // handle error
+        });
+    });
+})
+```

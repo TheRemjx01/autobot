@@ -6,10 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "theremjx01",
   "license": "ISC",
   "dependencies": {
     "knex": "^0.21.1",
     "lodash": "^4.17.15"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRemjx01/autobot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRemjx01/autobot/issues"
+  },
+  "homepage": "https://github.com/TheRemjx01/autobot#readme"
 }
