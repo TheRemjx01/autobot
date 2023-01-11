@@ -9,7 +9,7 @@
   "author": "theremjx01",
   "license": "ISC",
   "dependencies": {
-    "knex": "^0.21.1",
+    "knex": "^2.4.0",
     "lodash": "^4.17.15"
   },
   "devDependencies": {},
